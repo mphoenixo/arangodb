@@ -1,0 +1,22 @@
+{
+  "name": "foxx-import-app-example",
+  "description": "Monitors a preconfigured list of collections for newly added documents which were not already processed by the information extraction pipelines and pushes them to the information processing listener's queue.",
+  "author": "Mihaela Olteanu",
+  "license": "Apache 2",
+  "isSystem": false,
+  "version": "1.1.0",
+  "scripts": {
+      "myJob": "scripts/myJob.js",
+      "setup": "scripts/setup.js"
+  },
+  "configuration": {},
+
+  "dependencies": {
+    "foxxExportsExample": {
+        "name": "foxx_exports_example",
+        "version": "^1.0.0"
+    }
+  },
+  
+  "exports" : "exports.js"
+}
