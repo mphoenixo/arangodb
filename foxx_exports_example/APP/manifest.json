@@ -1,7 +1,7 @@
 {
   "name": "foxx_exports_example",
-  "description": "Monitors a preconfigured list of collections for newly added documents which were not already processed by the information extraction pipelines and pushes them to the information processing listener's queue.",
-  "author": "Mihaela Olteanu",
+  "description": "Foxx export example.",
+  "author": "Mihaela",
   "license": "Apache 2",
   "isSystem": false,
   "version": "1.0.0",
